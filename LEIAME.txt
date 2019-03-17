@@ -1,0 +1,33 @@
+AVALIAÇÃO
+=========
+
+Seu objetivo neste exercício é criar o CSS de um dos convites da Festalab.
+
+# Regras:
+1 - O único arquivo que pode ser modificado é "app.css";
+2 - Não é permitido o uso de nenhuma biblioteca extra, apenas recursos CSS suportados pela versão mais recente do Chrome;
+3 - A imagem "preview.png" deve ser usada como referência para o resultado esperado.
+
+Quando você finalizar envie o arquivo "app.css" para gabriela@festalab.com, com cópia para breno@festalab.com. 
+
+# Fontes e cores:
+- Nome: Bhatoshine Regular 129px #e21782;
+- Idade: Arima Madurai Medium 36px #000000;
+- Dia e mês: Bhatoshine Regular 68px #e21782;
+- Dia da semana e horário: Arima Madurai Medium 32px;
+- Local: Bhatoshine Regular 54px #e21782;
+- Endereço: Arima Madurai Medium 36px #000000;
+- Assinatura: Bhatoshine Regular 44px #e21782.
+
+
+EXTRA
+=====
+
+Seu objetivo neste exerício extra é fazer com que o convite atualize automaticamente (dia, mes, hora e dia da semana) enquanto o usuário digita a data e seleciona o horário no formulário.
+
+# Regras
+1 - O único arquivo que pode ser modificado é "app.js";
+2 - Não é permitido o uso de nenhuma biblioteca extra, apenas funções JS suportadas pela versão mais recente do Chrome;
+3 - Este extra é OPCIONAL e você NÃO será desqualificado(a) se não o fizer. Mas caso faça, a entrevista técnica será mais simples;
+
+Quando você finalizar envie o arquivo "app.js" para gabriela@festalab.com, com cópia para breno@festalab.com.

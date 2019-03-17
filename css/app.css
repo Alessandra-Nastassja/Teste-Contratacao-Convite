@@ -1,0 +1,93 @@
+/* Tipologia */
+@font-face {
+    font-family: 'Bhatoshine';
+    src: url("../fonts/Bhatoshine.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url("../fonts/Arima-Madurai.ttf");
+    font-size: 1em;
+}
+
+/* Fonts */
+#child-name, #event-day, #event-month,#event-location, #message{
+	font-family: 'Bhatoshine';
+	color: #e21782;
+}
+#child-age-prefix, #child-age-number, #child-age-text,#event-short-weekday-hour, #address-building, #address-neighborhood-city-state{
+	font-family: 'Arima Madurai';
+	color: #000000;
+}
+#child-name{
+	font-size: 129px;
+}
+#event-day, #event-month{
+	font-size: 68px;
+}
+#event-location{
+	font-size: 54px;
+}
+#message{
+	font-size: 44px;
+}
+#event-short-weekday-hour{
+	font-size: 32px;
+}
+#child-age-prefix, #child-age-number, #child-age-text, #address-building, #address-neighborhood-city-state{
+	font-size: 36px;
+}
+
+/* Posicionamento */
+#invitation-template{
+	text-align: center;
+}
+#child-age-prefix, #child-age-number, #child-age-text{
+	display: inline;
+}
+#event-day, #event-month{
+	display: inline;
+}
+#child-name{
+	padding-top: 350px;
+}
+#event-location{
+	width: 190px;
+	margin-left: 150px;
+}
+#event-day{
+	padding-right: 120px;
+}
+#event-day, #event-month{
+	position: absolute;
+	top: 597px;
+	right: 180px;
+}
+#event-short-weekday-hour{
+	position: absolute;
+	top: 697px;
+	right: 150px;
+	margin-bottom: 15px;
+}
+#address-building{
+	margin-top: 25px;
+}
+
+/* Formulário */
+#event_date, #event_starts_at{
+	font-family: 'Arima Madurai';
+	margin: 25px 0px;
+}
+
+/* Conteúdo */
+.invitation {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 800px;
+	height: 1200px;
+}
+
+.invitation--template-boneca {
+	background-image: url("../images/bg.png");
+}

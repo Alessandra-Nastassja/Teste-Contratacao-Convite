@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-bt">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Convite Boneca</title>
+
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+	<form>
+		<input type="text" id="event_date" value="09/03/2019">
+		<select id="event_starts_at">
+			<option value="12:00">12:00</option>
+			<option value="16:00" selected>16:00</option>
+		</select>
+	</form>
+
+	<div id="invitation-template" class="invitation invitation__preview invitation--template-boneca">
+		<div id="child-name"><span data-allow-font-resize>Sofia</span></div>
+
+		<div class="data-block data-block--age">
+			<div id="child-age-prefix"><span data-pluralizable>Nossa boneca faz<span></div>
+			<div id="child-age-number"><span>7</span></div>
+			<div id="child-age-text"><span>anos</span></div>
+		</div>
+
+		<div id="event-location"><span data-allow-font-resize>Salão de Festas</span></div>
+		<div id="event-day"><span>09</span></div>
+		<div id="event-month"><span>Mar</div>
+		<div id="event-short-weekday-hour"><span>Sábado | 16:00</span></div>
+
+		<div class="data-block data-block--address" data-allow-font-resize>
+			<div id="address-building">Rua Balão Mágico, 130</div>
+			<div id="address-neighborhood-city-state">Jd. Rio Cotia, Cotia - SP</div>
+		</div>
+
+		<div id="message">
+			<span>Conto com sua presença</span>
+		</div>
+	</div>
+</body>
+
+</html>
